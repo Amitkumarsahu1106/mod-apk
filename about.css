@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #fff;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+
+.head {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(84, 80, 80, 0.75), rgba(58, 44, 44, 0.75)), url(./img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.me {
+    padding: 30px 100px;
+    text-align: center;
+    /* font-size: 1.5rem; */
+}
+
+
+article {
+    font-size: 0.7rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+article h1:after {
+    content: "";
+    height: 2px;
+    width: 80px;
+    font-weight: 225px;
+    background-color: #fff;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+
+
+article img {
+    height: 200px;
+    width: 200px;
+    border: 2px solid #812f2f;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+blockquote {
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-top: 80px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+
+.wrapper{
+    padding-top: 100px;
+}
+
+.button {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    float: center;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #8f8888;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(164, 39, 4, 0.1);
+
+}
+
+.wrapper .button:hover {
+    width: 200px;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+
+.wrapper .button:nth-child(1) hover.icon {
+    background: #e60f07;
+}
+
+.wrapper .button:nth-child(2) hover.icon {
+    background: #e32c0b;
+}
+
+.wrapper .button:nth-child(3) hover.icon {
+    background: #e1306c;
+}
+
+/* .wrapper .button:nth-child(4)
+hover.icon{background: #ff0000;} */
+
+.wrapper .button .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+    color: #d21010;
+}
+
+.wrapper .button:nth-child(2) span {
+    color: #e10d0d;
+}
+
+.wrapper .button:nth-child(3) span {
+    color: #de1515;
+}
+
+/* .wrapper .button:nth-child(4)
+    span{color: #ff0000;} */
